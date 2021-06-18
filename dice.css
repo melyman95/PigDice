@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: lightgray;
     margin: 0 auto;
     width: 450px;
     border: 3px solid blue;
@@ -42,4 +42,27 @@ fieldset {
 }
 #hold {
     margin-right: 2em;
+}
+
+#container {
+    width: 415px;
+    padding: 50px;
+    border: 1px solid black;
+    position:absolute;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: -2em;
+    background-color: goldenrod;
+    box-shadow: 15px;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#die-wrapper {
+    width: 90%;
+    display:flex;
+    justify-content: space-around;
 }
